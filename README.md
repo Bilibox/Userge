@@ -114,41 +114,13 @@ async def test_filter(message: Message):
 
 ## How To Deploy 👷
 
-* With Heroku:
-  > **NOTE** : your can fill other vars as your need and they are optional. (settings -> reveal config vars)
-  * First click [**this**](https://heroku.com/deploy?template=https://github.com/UsergeTeam/Userge/tree/master)
-  * Fill `API_ID`, `API_HASH`, `DATABASE_URL` and `LOG_CHANNEL_ID` (**required**)
-  * Choose your [**MODE**](https://github.com/UsergeTeam/Userge#userge-modes-)
-  * Then fill other **non-required** vars as relevent to your **MODE**
-  * Finally **hit deploy** button
+* [**With Heroku 🇭**](https://theuserge.github.io/deployment#deploying-with-heroku)  
+  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Usergeteam/Userge/tree/beta)
 
-* With Docker 🐳 
-    - [**See Detailed Guide**](resources/radmeDocker.md)
+* [**With Docker 🐳**](https://theuserge.github.io/deployment#deploying-with-docker-)
 
-* With Git, Python and pip 🔧
-  ```bash
-  # clone the repo
-  git clone https://github.com/UsergeTeam/Userge.git
-  cd Userge
+* [**With Git, Python and pip 🔧**](https://theuserge.github.io/deployment#deploying-with-legacy-method)
 
-  # create virtualenv
-  virtualenv -p /usr/bin/python3 venv
-  . ./venv/bin/activate
-
-  # install requirements
-  pip install -r requirements.txt
-
-  # Create config.env as given config.env.sample and fill that
-  cp config.env.sample config.env
-
-  # get string session and add it to config.env
-  bash genStr
-
-  # finally run the Userge ;)
-  bash run
-  ```
-
-* **[More Detailed Guide](https://docs.google.com/document/d/15uoiOn2NkN518MMkx9h5UaMEWMp8aNZqJocXvS0uI6E)** 📝
 
 ### Video Tutorial 🎥
 
